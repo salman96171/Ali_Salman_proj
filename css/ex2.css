@@ -1,0 +1,72 @@
+.parent{
+    position: relative;
+    background-color:red;
+    padding:10px;
+    margin:30px 0;
+}
+
+.bg-blue{
+    background-color:blue;
+}
+.bg-green{
+    background-color:green;
+}
+.bg-yellow{
+    background-color:yellow;
+}
+.bg-pink{
+    background-color:pink;
+}
+  
+.h-20{
+    height:20px;
+}
+.h-30{
+    height:30px;
+}
+.h-40{
+    height:40px;
+}
+.h-50{
+    height:50px;
+}
+.w-50{
+    width:20px;
+}
+.w-150{
+    width:150px;
+}
+  
+.flex{
+    display:flex;
+}
+
+.parent-1 .child{
+    width: 25%;
+   margin: auto;
+   border: 1px solid black;
+}
+.parent-2{
+    justify-content: space-between;
+}
+/* In another way */
+/* .flex.parent-2 .child.bg-blue{
+    border: 1px solid black;
+    margin-right: 14rem;
+    margin-left: -0.3rem;
+
+} */
+/* .flex.parent-2 .child.bg-green{
+    border: 1px solid black;
+    margin-right: 15rem;
+} */
+.parent-3 .child{
+    width: 25%;
+   margin: 5px 8px;
+   border: 1px solid black;
+}
+.parent-4 .child{
+    width: 25%;
+    margin: 5px 3px;
+    border: 1px solid black;
+}

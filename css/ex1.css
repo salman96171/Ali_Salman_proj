@@ -1,0 +1,53 @@
+.parent{
+    position: relative;
+}
+.parent>div{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    padding-top: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+img{
+    width: 1355px;
+    height: 615px;
+}
+.top-left{
+    left: 10px;
+    top: 10px;
+}
+.top-right{
+    top: 10px;
+    right: 10px;
+}
+.bottom-left{
+    left: 10px;
+    bottom: 10px;
+}
+.bottom-right{
+    right: 10px;
+    bottom: 10px;
+}
+.top-center{
+    top: 10px;
+    left: 600px;
+}
+.bottom-center{
+    bottom: 10px;
+    left: 600px;
+}
+.center-center{
+    top: 280px;
+    left: 600px;
+}
+.center-left{
+    top: 280px;
+    left: 10px;
+}
+.center-right{
+    top: 280px;
+    right: 10px;
+}
